@@ -1,0 +1,149 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/flat-design-pixel-art-cloud-illustration_23-2150183893.jpg?w=826&t=st=1700531978~exp=1700532578~hmac=2a5f5fdb83d72095c86a75fc34609093a529336acc3e0cd9ee35a62f5d5f7738");
+    /* Image Credit by: https://www.freepik.com/free-vector/flat-design-pixel-art-cloud-illustration_38528396.htm#query=pixel%20art&position=6&from_view=keyword&track=ais&uuid=d6e11681-1e6a-46c0-a28c-2ecc6977abce (Freepik) */
+    --cor--destaque: #c602d4;
+    /*essa cor de destaque é uma variavel que criei para não precisar ficar trocando as cores dos titulos um por um*/
+}
+
+
+header {
+    width: 100%;
+    max-width: 900px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icones {
+    width: 40px;
+    border-radius: 40%;
+}
+
+.icones:hover {
+    background-color: #4d4d4d;
+    border-radius: 8px;
+}
+
+.main {
+    width: 100%;
+    max-width: 700px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.perfil {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil__foto {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+}
+
+.perfil__nome {
+    font-family: 'Vina Sans';
+    font-size: 50px;
+    font-weight: 400;
+    color: var(--cor--destaque);
+    margin: 15px 0;
+}
+
+strong {
+    color: #d4cd02;
+}
+
+.perfil__descricao {
+    font-family: 'Vina Sans';
+    font-size: 20px;
+    font-weight: 400;
+    color: #3b3b3b;
+    margin: 0;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    align-items: center;
+}
+
+.section {
+    padding: 8px;
+    width: 100%;
+    max-width: 350px;
+    margin: 24px auto;
+    box-sizing: border-box;
+}
+
+.section__titulo {
+    font-family: 'Vina Sans';
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--cor--destaque);
+    ;
+    margin: 15px 0;
+}
+
+.projeto {
+    background-color: #3b3b3b;
+    padding: 8px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.projeto__titulo {
+    font-family: 'Roboto Mono', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--cor--destaque);
+    margin: 8px 0;
+}
+
+.projeto__descricao {
+    font-family: 'Roboto Mono', 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #f4f4f4;
+    font-weight: 400;
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color: #3b3b3b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.footer__texto {
+    font-family: 'Roboto Mono', 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #f4f4f4;
+    display: flex;
+    align-items: center;
+}
+
+.footer__icone {
+    margin: 0 8px;
+    width: 20px;
+}
+
+.gif_gatinho {
+    height: auto;
+    display: flex;
+    margin-right: auto;
+}
+
+.link_acesso {
+    font-family: 'Roboto Mono', 'Times New Roman', Times, serif;
+    color: #026bd4;
+}
